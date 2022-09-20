@@ -1,0 +1,20 @@
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase h1{
+    text-align: center;
+    color: var(--light);
+}
+
+.showcase h1 span{
+    color: var(--dark);
+}
+
+.showcase p{
+    margin: 2rem 0;
+    max-width: 50%;
+}

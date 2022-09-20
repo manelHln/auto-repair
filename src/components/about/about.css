@@ -1,0 +1,16 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.about-info p{
+    margin: 2rem 0;
+}

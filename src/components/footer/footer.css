@@ -1,0 +1,88 @@
+.footer{
+    width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 4rem 6rem;
+}
+.footer-links div ul li {
+  color: var(--dark);
+  list-style-type: none;
+  font-family: sans-serif;
+  margin: 0.8rem 0;
+  text-transform: capitalize;
+}
+.footer-links div h4{
+  color: var(--red);
+  font-size: 1rem;
+  font-family: var(--text-font);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.footer-links .footer-logo {
+  width: 62px;
+  height: 16px;
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+}
+.footer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-header h1 {
+  color: var(--dark);
+  font-family: var(--text-font);
+  font-size: 2.5rem;
+  line-height: 55px;
+  text-align: center;
+}
+.footer-header h1 span{
+  color: var(--light);
+}
+.footer-header p {
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-family: var(--text-font);
+  font-weight: 500;
+  color: var(--dark);
+  cursor: pointer;
+  transition: all .1s ease-in;
+}
+.footer-header p:hover {
+  background-color: #fff;
+  color: var(--red);
+  font-weight: 700;
+}
+.copyright {
+  text-align: center;
+}
+.copyright p {
+  font-family: var(--text-font);
+  color: var(--light);
+}
+.logo-container h2 a {
+  color: var(--red);
+  font-family: var(--text-font);
+  font-weight: 500;
+}
+.logo-container h2{
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .footer-links {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer-header h1 {
+    font-size: 1.8rem;
+  }
+}

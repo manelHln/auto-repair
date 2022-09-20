@@ -1,0 +1,33 @@
+.why{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.why-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.why-info p{
+    margin-top: 2rem;
+}
+
+.why-list{
+    margin-top: 2rem;
+    display: flex;
+    column-gap: 2rem;
+}
+
+.why-list ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.why-list ul li svg{
+    margin-right: 0.3rem;
+}

@@ -1,0 +1,35 @@
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.service {
+  padding: 1rem;
+  width: 350px;
+}
+
+.service-icon svg {
+  width: 40px;
+  height: 40px;
+  color: var(--red);
+}
+
+.service-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-info h3 {
+  margin: 0.7rem 0;
+  color: var(--dark);
+}
+
+.service-info p {
+  text-align: center;
+  color: var(--light);
+}
