@@ -8,6 +8,8 @@
 
 .newsletter p {
   margin: 1rem 0;
+  max-width: 60%;
+  text-align: center;
 }
 
 .newsletter-form {
@@ -38,4 +40,16 @@
 }
 .newsletter-form button:hover {
   background-color: var(--dark);
+}
+
+@media screen and (max-width: 500px) {
+  .newsletter p{
+    text-align: center;
+  }
+  .newsletter-form button{
+    width: 15%;
+  }
+  .newsletter-form input{
+    width: 70%;
+  }
 }

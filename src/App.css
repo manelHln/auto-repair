@@ -111,8 +111,14 @@ a {
   }
 }
 
-@media screen and (max-width: 450px) {
-  .title-lg {
+@media screen and (max-width: 550px) {
+  .title-lg, .title-alt {
     font-size: 1.8rem;
   }
 }
+
+@media screen and (max-width: 450px) {
+    .title-lg, .title-alt {
+      font-size: 1.5rem;
+    }
+  }

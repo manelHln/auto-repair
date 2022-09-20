@@ -3,13 +3,13 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .why-info{
     display: flex;
     flex-direction: column;
-    max-width: 550px;
+    max-width: 40%;
 }
 
 .why-info p{
@@ -30,4 +30,31 @@
 
 .why-list ul li svg{
     margin-right: 0.3rem;
+}
+
+@media screen and (max-width: 900px){
+    .why{
+        flex-direction: column;
+    }
+    .why-info{
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    .why-info p{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .why-info p{
+        max-width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .why-info p{
+        max-width: 100%;
+        text-align: justify;
+    }
 }

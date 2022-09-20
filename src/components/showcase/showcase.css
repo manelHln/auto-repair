@@ -18,3 +18,10 @@
     margin: 2rem 0;
     max-width: 50%;
 }
+
+@media screen and (max-width: 550px){
+    .showcase p{
+        text-align: center;
+        max-width: 80%;
+    }
+}

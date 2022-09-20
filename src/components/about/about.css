@@ -2,15 +2,42 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .about-info{
     display: flex;
     flex-direction: column;
-    max-width: 550px;
+    max-width: 40%;
 }
 
 .about-info p{
     margin: 2rem 0;
+}
+
+@media screen and (max-width: 900px){
+    .about{
+        flex-direction: column;
+    }
+    .about-info{
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    .about-info p{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .about-info p{
+        max-width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about-info p{
+        max-width: 100%;
+        text-align: justify;
+    }
 }
