@@ -37,6 +37,7 @@
   color: var(--dark);
   font-family: var(--text-font);
   font-size: 2.5rem;
+  text-transform: capitalize;
   line-height: 55px;
   text-align: center;
 }
