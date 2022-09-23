@@ -3,10 +3,10 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="section-container gray-bg" id="footer">
+    <div className="section-container gray-bg" id="contact us">
       <div className="footer">
         <div className="footer-header">
-          <h1>Do you want to step in to the <br /><span>future before others</span></h1>
+          <h1>Lorem ipsum dolor sit amet consectetur<br /><span>Voluptatum culpa reprehend</span></h1>
           <p>Request Early Access</p>
         </div>
 

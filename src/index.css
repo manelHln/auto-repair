@@ -3,5 +3,11 @@
     --red: #df505c;
     --dark: #002d56;
 
-    --text-font: "Montserrat";
+    --text-font: "myFont";
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("assets/fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight: 500;
 }

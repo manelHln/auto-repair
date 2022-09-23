@@ -13,7 +13,7 @@ export default function Navbar() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#shop">Shop</a>
+            <a href="#why us">Why Us</a>
           </li>
           <li>
             <a href="#our services">Our services</a>
@@ -29,7 +29,7 @@ export default function Navbar() {
             <div className="mobile-menu">
               <HiX onClick={() => setToggleMenu(false)} />
               <ul>
-                {["home", "shop", "our services", "about us", "contact us"].map((item) => (
+                {["home", "why us", "our services", "about us", "contact us"].map((item) => (
                   <li key={item} onClick={() => setToggleMenu(false)}><a href={`#${item}`}>{item}</a></li>
                 ))}
               </ul>

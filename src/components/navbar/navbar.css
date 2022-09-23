@@ -70,7 +70,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color: var(--light);
+  background-color: var(--dark);
   z-index: 2;
   animation: fadeDown .2s ease-in ;
 }
@@ -78,7 +78,7 @@
 .mobile-menu svg {
   width: 25px;
   height: 25px;
-  color: var(--dark);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -100,7 +100,7 @@
   text-transform: capitalize;
 }
 .mobile-menu ul li a {
-  color: var(--dark);
+  color: #fff;
 }
 
 @keyframes fadeDown {

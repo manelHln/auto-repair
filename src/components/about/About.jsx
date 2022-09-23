@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { Towing } from "../../assets";
+import { Header2 } from "../../assets";
 import {CustomButton} from "../../components";
 import {HiArrowRight} from "react-icons/hi"
 
@@ -20,7 +20,7 @@ const About = () => {
           <CustomButton text="Know More" icon={<HiArrowRight />} />
         </div>
         <div className="img-container">
-          <img src={Towing} alt="about" className="section-img" />
+          <img src={Header2} alt="about" className="section-img" />
         </div>
       </div>
     </div>
